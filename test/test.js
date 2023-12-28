@@ -2,13 +2,17 @@
 before(function(){
     console.log("Run the application locally");
     console.log("Run the server");
-    console.log("open the website");
-    console.log("click on login menu button");
-    console.log("fill a correct emial address");
+   
 })
 after(function(){
     console.log("stop the application locally");
     console.log("stop the server");
+})
+
+beforeEach(function(){
+    console.log("open the website");
+    console.log("click on login menu button");
+    console.log("fill a correct emial address");
 })
 describe("login test cases",function(){
     
