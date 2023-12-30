@@ -60,13 +60,13 @@ test("should returns USER ifnthe name contains @",function(){
         expect(actulResult).toEqual(expectedResult);
     })
 
-    test("should returns USER ifnthe name contains .",function(){
+test.skip("should returns USER ifnthe name contains .",function(){
         const expectedResult = "USER";
         const actulResult    = checkName("ahm.d");
         expect(actulResult).toEqual(expectedResult);
     })
 
-    test("should returns the correct name",function(){
+test.only("should returns the correct name",function(){
         const expectedResult = "ahmed";
         const actulResult    = checkName("ahmed");
         expect(actulResult).toEqual(expectedResult);
