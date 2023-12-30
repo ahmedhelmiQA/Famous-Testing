@@ -20,3 +20,20 @@ describe("check name test case",function(){
         assert.equal(actualresult,expectedresult);
     })
 })
+  
+
+describe("check name test case",function(){
+    it.only("should returns USER if the name contains .",function(){
+        let expectedresult = "USER";
+        let actualresult = checkName("ahm.d");
+        assert.equal(actualresult,expectedresult);
+    })
+})
+
+describe("check name test case",function(){
+    it.only("should returns name ",function(){
+        let expectedresult = "ahmed";
+        let actualresult = checkName("ahmed");
+        assert.equal(actualresult,expectedresult);
+    })
+})
