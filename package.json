@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --watch"   
+    "test": "mocha --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^5.0.0",
+    "jest": "^29.7.0",
     "mocha": "^10.2.0"
   }
 }
