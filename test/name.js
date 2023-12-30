@@ -36,7 +36,6 @@
 
 //              by jest
 const {expect} = require("@jest/globals");
-
 const checkName = require("..//name");
 
 describe("check name test case",function(){
