@@ -1,5 +1,8 @@
-///                            before  - after  - beforeEach  - afterEach
+
+describe("login test cases",function(){
+    ///                            before  - after  - beforeEach  - afterEach    ( hooks)
 /*
+
 before(function(){       // once time before run the all test  cases //
     console.log("Run the application locally"); 
     console.log("Run the server");
@@ -19,7 +22,6 @@ beforeEach(function(){      // before each test case //
 afterEach(function(){             // after each test case //
     console.log("close the browser");
 })
-describe("login test cases",function(){
     
     it("should be able to login with valid email and password",function(){
         console.log("fill a correct emial address");
@@ -44,9 +46,7 @@ describe("login test cases",function(){
     })
 })
 */
-
-describe("login test cases",function(){
-   
+ 
     // it("should be able to login with valid email and password",function(){
     //     console.log("fill a correct emial address");
     //     console.log("fill a correct password");
